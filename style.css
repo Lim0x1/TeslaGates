@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0ece3;
+}
+#container{
+    width:1000px;
+    margin: auto;
+    background-color: #dfd3c3;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    width: 100%;   
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    width: 8em;
+    margin:1em;
+}
+nav a {
+    display: block;
+    padding: 0.8;
+    border-radius:2em;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f0ece3;
+    color:#596e79;
+    font-size: 1.3em;
+}
+#Kontakt a{
+    display: block;
+    padding: 0.8;
+    text-decoration: none;
+    border-radius:2em;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+}
+.face{
+    background-color: rgb(65, 65, 243);
+    color:#f0ece3;
+}
+.you{
+    background-color: red;
+    color:#f0ece3;
+}
+.twit{
+    background-color: rgb(10, 111, 144);
+    color:#f0ece3;
+}
+nav a:hover{
+    background-color: #596e79;
+    color:#f0ece3;
+}
+header{
+    height: 100px;
+    width: 100%;
+    margin:2em;
+    border-bottom:1px solid #596e79;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    text-align:center;
+}
+#Tesla{
+    display: flex;
+    margin:2em;
+    border-top:1px solid #596e79;
+    border-bottom:1px solid #596e79;
+    justify-content: space-between;
+    align-items: center;
+}
+#trans{
+    display: flex;
+    margin:2em;
+    border-top:1px solid #596e79;
+    border-bottom:1px solid #596e79;
+    justify-content: space-between;
+    align-items: center;
+}
+#Radio{
+    display: flex;
+    margin:2em;
+    border-top:1px solid #596e79;
+    border-bottom:1px solid #596e79;
+    justify-content: space-between;
+    align-items: center;
+}
+#Kontakt{
+    margin:2em;
+    border-top:1px solid #596e79;
+    justify-content: space-between;
+}
+.artykul{
+    width: 60%;
+    font-size:1.1em ;
+}
+footer{
+    border-top: 1px solid #596e79;
+    width: 100%;
+    height: 100px;
+    margin: 2em;
+    text-align: end;
+}
