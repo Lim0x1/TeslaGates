@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     background-color: #f0ece3;
 }
-#container{
+.box{
     width:1000px;
     margin: auto;
     background-color: #dfd3c3;
@@ -58,7 +58,7 @@ nav a:hover{
     background-color: #596e79;
     color:#f0ece3;
 }
-header{
+.header{
     height: 100px;
     width: 100%;
     margin:2em;
@@ -70,7 +70,7 @@ header{
 h2{
     text-align:center;
 }
-#Tesla{
+.article{
     display: flex;
     margin:2em;
     border-top:1px solid #596e79;
@@ -78,28 +78,12 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
-#trans{
-    display: flex;
-    margin:2em;
-    border-top:1px solid #596e79;
-    border-bottom:1px solid #596e79;
-    justify-content: space-between;
-    align-items: center;
-}
-#Radio{
-    display: flex;
-    margin:2em;
-    border-top:1px solid #596e79;
-    border-bottom:1px solid #596e79;
-    justify-content: space-between;
-    align-items: center;
-}
-#Kontakt{
+#Comun{
     margin:2em;
     border-top:1px solid #596e79;
     justify-content: space-between;
 }
-.artykul{
+.article__content{
     width: 60%;
     font-size:1.1em ;
 }
